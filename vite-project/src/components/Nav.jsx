@@ -1,8 +1,10 @@
+import logo from "./../assets/img/logo.png";
+
 const nav = () => {
     return (
         <nav>
             <div className="logo">
-                <img src="./img " alt="" />
+                <img src={logo} alt="" />
             </div>
 
             <ul>
