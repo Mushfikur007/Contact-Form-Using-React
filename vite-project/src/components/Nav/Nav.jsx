@@ -1,10 +1,10 @@
-import logo from "./../assets/img/logo.png";
+import styles from './Nav.module.css'
 
 const nav = () => {
     return (
-        <nav>
+        <nav className={`${styles.Nav} container`}>
             <div className="logo">
-                <img src={logo} alt="" />
+                <img src='/src/assets/img/logo.png' alt="logo" />
             </div>
 
             <ul>
