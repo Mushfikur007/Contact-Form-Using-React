@@ -9,8 +9,10 @@ function App() {
   return (
     <div>
       <Nav/>
+      <main className='main_container'>
       <ContactHeader/>
       <ContactForm/>
+      </main>
     </div>
   )
 }

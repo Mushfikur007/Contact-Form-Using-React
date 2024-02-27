@@ -6,10 +6,10 @@ const Button = (props) => {
     const {isOutline, icon, text} = props;
 
     return (
-        <div className={isOutline ? styles.outline_btn : styles.primary_btn}>
-            {icon}
-            {text}
-        </div>
+            <div className={isOutline ? styles.outline_btn : styles.primary_btn}>
+                {icon}
+                {text}
+            </div>
     );
 };
 
